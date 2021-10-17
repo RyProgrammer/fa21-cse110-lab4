@@ -39,5 +39,7 @@
 
     F) *true* was the output. This is because *2* was typecasted to a boolean value, thus converted to *true* (the same as the LHS).
 15. The difference is that *===* takes the type of both sides into consideration, while *==* does not.
+16. *(Separate file!)*
 17. *[2, 4, 6]* would be the result. This is because *modifyArray* will iterate through the passed-in array and apply the passed-in callback function to each element, doubling them and returning the new array described.
+18. *(Separate file!)*
 19. *1, 3, 4, 2* is printed (each comma is a new line).
