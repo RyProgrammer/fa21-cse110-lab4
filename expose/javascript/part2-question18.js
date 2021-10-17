@@ -1,7 +1,7 @@
 function printTime() {
     let d = new Date();
     let time = d.toLocaleTimeString();
-    console.clear();
+    // console.clear(); // -> Added this line just to make the console work more like a ticking clock
     console.log(time);
 }
 
